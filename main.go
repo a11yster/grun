@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("gRUN <--> GRAPH RUNNER CLI")
+	fmt.Println("gRUN: graph runner")
 
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: gRUN <command>")
