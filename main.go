@@ -10,7 +10,7 @@ func main() {
 
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: gRUN <command>")
-		os.Exit(1)
+		return
 	}
 
 	switch os.Args[1] {
